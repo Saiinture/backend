@@ -1,0 +1,34 @@
+fields:
+    bot_name:
+        label: Name
+        span: auto
+        type: text
+    bot_id:
+        label: 'Bot ID'
+        span: auto
+        readOnly: 0
+        type: text
+    level:
+        label: Level
+        options:
+            easy: Easy
+            meduim: Medium
+            hard: Hard
+            very_hard: 'Very Hard'
+        showSearch: true
+        span: auto
+        type: dropdown
+    avatar:
+        label: Avatar
+        span: auto
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        type: fileupload
+    persona:
+        label: Persona
+        size: large
+        span: full
+        type: textarea

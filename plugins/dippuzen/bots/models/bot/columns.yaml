@@ -1,0 +1,10 @@
+columns:
+    bot_id:
+        label: ID
+        type: number
+    bot_name:
+        label: 'Bot Name'
+        type: text
+    level:
+        label: Level
+        type: text
